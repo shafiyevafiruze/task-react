@@ -1,0 +1,38 @@
+.last-container {
+  background-color: #fdd1d5;
+  width: 85%;
+  height: 350px;
+  margin: 200px auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.last-container img {
+  width: auto;
+  height: 220px;
+}
+
+.last-container div button {
+  background-color: #f84757;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 140px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.last-container div button:hover {
+  background-color: #d30012;
+}
+
+.last-container div p {
+  width: 420px;
+  margin: 15px 0px;
+}

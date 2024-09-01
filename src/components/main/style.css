@@ -1,0 +1,29 @@
+.img-container {
+  margin: 50px auto;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-container div p {
+  text-align: center;
+  margin: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.img-container div p:hover {
+  text-decoration: underline;
+}
+
+.img-container div img {
+  width: 190px;
+  height: 190px;
+}
+
+.img-container div img:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+}

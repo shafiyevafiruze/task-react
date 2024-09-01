@@ -1,0 +1,26 @@
+.section-container {
+  width: 85%;
+  margin: auto;
+}
+
+.section-container p {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 55px;
+  margin-left: 10px;
+}
+
+.country-imgs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.country-imgs p {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.country-imgs div img {
+  width: 280px;
+  height: 280px;
+}

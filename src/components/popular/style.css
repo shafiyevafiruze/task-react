@@ -1,0 +1,117 @@
+.popular-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.main-texts {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-texts h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.main-texts h4 {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.slider .calendar {
+  width: 24px;
+  height: 24px;
+}
+
+.slider .calendar-div,
+.slider .check-circle-div,
+.slider .ticket-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calendar-div p,
+.check-circle-div p {
+  color: #696969;
+  margin-left: 8px;
+}
+
+.ticket-div p {
+  font-size: 18px;
+  color: #f84757;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.slider {
+  margin: 20px auto;
+  padding: 0 60px;
+}
+
+.slide-m {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: left;
+  transition: box-shadow 0.3s ease;
+}
+
+.slide-m h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.slide-m:hover {
+  box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.heart-btn {
+  position: relative;
+}
+
+.favorite-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #303030;
+  cursor: pointer;
+  border: none;
+  font-size: 24px;
+  color: white;
+  transition: color 0.3s ease;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favorite-btn:hover {
+  color: #e74c3c;
+}
+
+.slick-prev,
+.slick-next {
+  background-color: #484848;
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #e74c3c;
+}
